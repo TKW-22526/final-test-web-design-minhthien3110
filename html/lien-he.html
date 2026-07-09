@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tranh Việt - Liên hệ</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a href="index.html" class="logo">
+      <span class="khung"></span>
+      Tranh Việt
+    </a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Trang chủ</a></li>
+        <li><a href="gioi-thieu.html">Giới thiệu</a></li>
+        <li><a href="san-pham.html">Sản phẩm</a></li>
+        <li><a href="lien-he.html">Liên hệ</a></li>
+        <li><a href="#">Giỏ hàng (<span id="so-gio-hang">0</span>)</a></li>
+      </ul>
+    </nav>
+    <button class="menu-toggle" aria-label="Mở menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <h1>Liên hệ với chúng tôi</h1>
+    <p>Có thắc mắc về sản phẩm hoặc đơn hàng? Gửi tin nhắn cho chúng tôi ngay.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container lien-he-luoi">
+
+    <div>
+      <h2>Thông tin liên hệ</h2>
+      <ul class="thong-tin-lh" style="margin-top: 20px;">
+        <li><span class="bieu-tuong">📍</span><span>123 Đường Nguyễn Trãi, Quận 1, TP. Hồ Chí Minh</span></li>
+        <li><span class="bieu-tuong">📞</span><span>0909 123 456</span></li>
+        <li><span class="bieu-tuong">✉️</span><span>lienhe@tranhviet.vn</span></li>
+        <li><span class="bieu-tuong">🕒</span><span>8:00 - 21:00, Thứ 2 - Chủ nhật</span></li>
+      </ul>
+    </div>
+
+    <div>
+      <h2>Gửi tin nhắn</h2>
+      <form id="form-lien-he" style="margin-top: 20px;">
+        <div class="truong">
+          <label for="ho-ten">Họ tên</label>
+          <input type="text" id="ho-ten" placeholder="Nhập họ tên của bạn">
+        </div>
+        <div class="truong">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="[email protected]">
+        </div>
+        <div class="truong">
+          <label for="noi-dung">Nội dung</label>
+          <textarea id="noi-dung" placeholder="Bạn muốn hỏi điều gì?"></textarea>
+        </div>
+        <button type="submit" class="btn">Gửi tin nhắn</button>
+        <div id="thong-bao-form" class="thong-bao"></div>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="container footer-luoi">
+    <div>
+      <h3>Tranh Việt</h3>
+      <p>Cửa hàng tranh nghệ thuật, mang cái đẹp đến gần hơn với mọi ngôi nhà Việt.</p>
+    </div>
+    <div>
+      <h3>Liên kết</h3>
+      <ul>
+        <li><a href="san-pham.html">Sản phẩm</a></li>
+        <li><a href="gioi-thieu.html">Giới thiệu</a></li>
+        <li><a href="lien-he.html">Liên hệ</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Liên hệ</h3>
+      <ul>
+        <li>0909 123 456</li>
+        <li>lienhe@tranhviet.vn</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-duoi">© 2026 Tranh Việt. Đồ án cuối kỳ - Thiết kế web.</div>
+</footer>
+
+<button id="len-dau-trang">↑</button>
+
+<script src="js/script.js"></script>
+</body>
+</html>
