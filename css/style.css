@@ -78,8 +78,8 @@ header {
   width: 34px;
   height: 34px;
   border: 2px solid var(--vang);
+  background: linear-gradient(135deg, #b9924f, #2f3e2e);
   border-radius: 4px;
-  object-fit: cover;
 }
 
 nav ul {
@@ -188,8 +188,6 @@ section {
   border: 6px solid var(--trang);
   outline: 1px solid var(--vien);
   box-shadow: 0 4px 14px rgba(0,0,0,0.08);
-  background-size: cover;
-  background-position: center;
 }
 
 /* ===== Grid sản phẩm ===== */

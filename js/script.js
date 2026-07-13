@@ -11,7 +11,9 @@ if (nutMenu && menuNav) {
 // ===== Đánh dấu link đang chọn trên menu =====
 const trangHienTai = window.location.pathname.split("/").pop() || "index.html";
 document.querySelectorAll("nav a").forEach((lienKet) => {
-  if (lienKet.getAttribute("href") === trangHienTai) {
+  const href = lienKet.getAttribute("href") || "";
+  const tenFileCuaLink = href.split("/").pop();
+  if (tenFileCuaLink === trangHienTai) {
     lienKet.classList.add("active");
   }
 });
