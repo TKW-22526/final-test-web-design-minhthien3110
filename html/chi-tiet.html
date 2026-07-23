@@ -3,125 +3,135 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tranh Việt - Chi tiết sản phẩm</title>
+<title>Chi tiết sản phẩm — Mộc & Chữ</title>
 <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 
-<header>
-  <div class="header-inner">
-    <a href="../index.html" class="logo">
-      <img src="../assets/logo.jpg" alt="Logo Tranh Việt" class="khung">
-      Tranh Việt
-    </a>
-    <nav>
-      <ul>
-        <li><a href="../index.html">Trang chủ</a></li>
-        <li><a href="gioi-thieu.html">Giới thiệu</a></li>
-        <li><a href="san-pham.html">Sản phẩm</a></li>
-        <li><a href="lien-he.html">Liên hệ</a></li>
-        <li><a href="#">Giỏ hàng (<span id="so-gio-hang">0</span>)</a></li>
-      </ul>
+<div class="strip">Miễn phí vận chuyển cho đơn hàng từ 1.000.000đ — Toàn quốc</div>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="../index.html" class="brand">Mộc <span class="mark">&</span> Chữ <small>Gallery · Nhà sách</small></a>
+    <nav class="nav-main">
+      <a href="../index.html">Trang chủ</a>
+      <a href="san-pham.html" class="active">Sản phẩm</a>
+      <a href="gioi-thieu.html">Giới thiệu</a>
+      <a href="lien-he.html">Liên hệ</a>
     </nav>
-    <button class="menu-toggle" aria-label="Mở menu">
-      <span></span><span></span><span></span>
-    </button>
+    <div class="header-actions">
+      <a class="icon-btn" href="san-pham.html" title="Tìm kiếm" aria-label="Tìm kiếm">⌕</a>
+      <a class="icon-btn" href="#" title="Giỏ hàng" aria-label="Giỏ hàng">
+        🛍
+        <span class="cart-count">0</span>
+      </a>
+      <button class="menu-toggle" aria-label="Mở menu">☰</button>
+    </div>
   </div>
 </header>
 
-<section>
-  <div class="container chi-tiet-luoi">
-
-    <div class="tranh-art" style="background-image: url('../assets/tranh1.jpg');"></div>
-
-    <div class="chi-tiet-thong-tin">
-      <h1>Hoàng hôn trên đồng lúa</h1>
-      <p class="gia">1.250.000đ</p>
-      <p style="color:var(--chu-nhat);">
-        Bức tranh sơn dầu khắc họa khoảnh khắc hoàng hôn buông xuống trên cánh đồng lúa chín,
-        gợi nhớ về vẻ đẹp bình yên của làng quê Việt Nam. Tác phẩm phù hợp treo phòng khách
-        hoặc phòng làm việc, mang lại cảm giác ấm áp và thư thái.
-      </p>
-
-      <ul>
-        <li><span>Chất liệu</span><span>Sơn dầu trên vải canvas</span></li>
-        <li><span>Kích thước</span><span>60cm x 80cm</span></li>
-        <li><span>Họa sĩ</span><span>Nguyễn Minh An</span></li>
-        <li><span>Tình trạng</span><span>Còn hàng</span></li>
-      </ul>
-
-      <div class="so-luong">
-        <button id="giam-so-luong" type="button">-</button>
-        <input type="number" id="so-luong-mua" value="1" min="1">
-        <button id="tang-so-luong" type="button">+</button>
-      </div>
-
-      <button class="btn" data-them-gio="Hoàng hôn trên đồng lúa" data-gia="1250000">Thêm vào giỏ hàng</button>
-    </div>
-
+<div class="breadcrumb">
+  <div class="wrap">
+    <a href="../index.html">Trang chủ</a> / <a href="san-pham.html">Sản phẩm</a> / <span id="breadcrumb-name">…</span>
   </div>
-</section>
+</div>
 
-<section style="background: var(--nen-toi);">
-  <div class="container">
-    <div class="tieu-de-section">
-      <h2>Sản phẩm liên quan</h2>
+<section id="detail-root">
+  <div class="wrap detail-grid">
+    <div class="detail-media">
+      <img id="detail-img" src="" alt="">
     </div>
-    <div class="luoi-san-pham">
-      <div class="the-san-pham">
-        <div class="tranh-art" style="background-image: url('../assets/tranh2.jpg');"></div>
-        <div class="the-san-pham-noidung">
-          <h3>Phố cổ mùa thu</h3>
-          <p class="gia">980.000đ</p>
-          <a href="chi-tiet.html" class="btn">Xem chi tiết</a>
+    <div class="detail-info">
+      <span class="product-tag" id="detail-tag" style="position:static; display:inline-block;"></span>
+      <span class="product-cat" id="detail-cat" style="display:block; margin-top:14px;"></span>
+      <h1 id="detail-name"></h1>
+      <div class="detail-rating">★★★★★ <span id="detail-rating-val"></span>/5 · Đã bán hơn 50 sản phẩm</div>
+      <div class="detail-price" id="detail-price"></div>
+      <p class="detail-desc" id="detail-desc"></p>
+
+      <table class="spec-table">
+        <tr><td>Tác giả</td><td id="spec-artist"></td></tr>
+        <tr><td>Kích thước</td><td id="spec-size"></td></tr>
+        <tr><td>Chất liệu</td><td id="spec-material"></td></tr>
+        <tr><td>Năm sản xuất</td><td id="spec-year"></td></tr>
+        <tr><td>Tình trạng kho</td><td id="spec-stock"></td></tr>
+      </table>
+
+      <div class="qty-row">
+        <div class="qty-stepper">
+          <button id="qty-minus" type="button" aria-label="Giảm số lượng">–</button>
+          <input id="qty-input" type="text" value="1" inputmode="numeric" aria-label="Số lượng">
+          <button id="qty-plus" type="button" aria-label="Tăng số lượng">+</button>
         </div>
+        <span style="color:var(--paper-60); font-size:.85rem;">còn hàng, sẵn sàng giao</span>
       </div>
-      <div class="the-san-pham">
-        <div class="tranh-art" style="background-image: url('../assets/tranh3.jpg');"></div>
-        <div class="the-san-pham-noidung">
-          <h3>Sen hồng tĩnh lặng</h3>
-          <p class="gia">1.500.000đ</p>
-          <a href="chi-tiet.html" class="btn">Xem chi tiết</a>
-        </div>
+
+      <div class="detail-actions">
+        <button class="btn btn-primary" id="add-to-cart">Thêm vào giỏ hàng</button>
+        <a href="lien-he.html" class="btn btn-ghost">Hỏi về sản phẩm này</a>
       </div>
-      <div class="the-san-pham">
-        <div class="tranh-art" style="background-image: url('../assets/tranh6.jpg');"></div>
-        <div class="the-san-pham-noidung">
-          <h3>Núi rừng Tây Bắc</h3>
-          <p class="gia">1.350.000đ</p>
-          <a href="chi-tiet.html" class="btn">Xem chi tiết</a>
-        </div>
+
+      <div class="trust-row">
+        <div><span class="g">✓</span> Đóng gói cẩn thận, chống ẩm &amp; va đập</div>
+        <div><span class="g">✓</span> Đổi trả trong 7 ngày</div>
+        <div><span class="g">✓</span> Giao hàng toàn quốc</div>
       </div>
     </div>
   </div>
 </section>
 
-<footer>
-  <div class="container footer-luoi">
-    <div>
-      <h3>Tranh Việt</h3>
-      <p>Cửa hàng tranh nghệ thuật, mang cái đẹp đến gần hơn với mọi ngôi nhà Việt.</p>
+<section class="section">
+  <div class="wrap">
+    <div class="related-heading">
+      <span class="eyebrow">Có thể bạn cũng thích</span>
+      <h2 class="section-title">Sản phẩm liên quan</h2>
     </div>
-    <div>
-      <h3>Liên kết</h3>
-      <ul>
-        <li><a href="san-pham.html">Sản phẩm</a></li>
-        <li><a href="gioi-thieu.html">Giới thiệu</a></li>
-        <li><a href="lien-he.html">Liên hệ</a></li>
-      </ul>
+    <div class="product-grid" id="related-grid"></div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="../index.html" class="brand">Mộc <span class="mark">&</span> Chữ</a>
+        <p>Tranh nghệ thuật và sách Việt Nam tuyển chọn, giao hàng toàn quốc.</p>
+        <div class="social-row">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="Instagram">ig</a>
+          <a href="#" aria-label="Zalo">zl</a>
+        </div>
+      </div>
+      <div>
+        <h5>Mua sắm</h5>
+        <ul>
+          <li><a href="san-pham.html?type=tranh">Tranh nghệ thuật</a></li>
+          <li><a href="san-pham.html?type=sach">Sách</a></li>
+          <li><a href="san-pham.html">Tất cả sản phẩm</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Công ty</h5>
+        <ul>
+          <li><a href="gioi-thieu.html">Giới thiệu</a></li>
+          <li><a href="lien-he.html">Liên hệ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Liên hệ</h5>
+        <ul>
+          <li><a href="#">142 Hàng Bông, Hoàn Kiếm, Hà Nội</a></li>
+          <li><a href="tel:+84243888999">024 3888 999</a></li>
+          <li><a href="mailto:hello@mocvachu.vn">hello@mocvachu.vn</a></li>
+        </ul>
+      </div>
     </div>
-    <div>
-      <h3>Liên hệ</h3>
-      <ul>
-        <li>0909 123 456</li>
-        <li>lienhe@tranhviet.vn</li>
-      </ul>
+    <div class="footer-bottom">
+      <span>© 2026 Mộc & Chữ. Bản quyền thuộc về Mộc & Chữ.</span>
+      <span>Thiết kế thủ công tại Việt Nam</span>
     </div>
   </div>
-  <div class="footer-duoi">© 2026 Tranh Việt. Đồ án cuối kỳ - Thiết kế web.</div>
 </footer>
-
-<button id="len-dau-trang">↑</button>
 
 <script src="../js/script.js"></script>
 </body>

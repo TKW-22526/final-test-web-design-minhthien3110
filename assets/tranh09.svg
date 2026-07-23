@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 800">
+  <rect width="640" height="800" fill="#F2E8D5"/>
+  <rect x="26" y="26" width="588" height="748" fill="#1B120C"/>
+  <rect x="34" y="34" width="572" height="732" fill="url(#sky-p09)"/>
+  <circle cx="468.72" cy="180.4" r="88.0" fill="url(#glow-p09)"/><circle cx="468.72" cy="180.4" r="40" fill="#EFCE7B"/><path d="M24,700.8000000000001 Q320.0,686.8000000000001 616,700.8000000000001" stroke="#D9AE3E" stroke-width="2" fill="none" opacity="0.25"/><path d="M24,667.8600000000001 Q327.1735609089952,653.8600000000001 616,667.8600000000001" stroke="#D9AE3E" stroke-width="2" fill="none" opacity="0.30"/><path d="M24,634.9200000000001 Q329.99573603041506,620.9200000000001 616,634.9200000000001" stroke="#D9AE3E" stroke-width="2" fill="none" opacity="0.35"/><path d="M24,601.98 Q326.7546318055115,587.98 616,601.98" stroke="#D9AE3E" stroke-width="2" fill="none" opacity="0.40"/><path d="M24,569.0400000000001 Q319.4162585657242,555.0400000000001 616,569.0400000000001" stroke="#D9AE3E" stroke-width="2" fill="none" opacity="0.45"/><path d="M24,536.1000000000001 Q312.43197504692074,522.1000000000001 616,536.1000000000001" stroke="#D9AE3E" stroke-width="2" fill="none" opacity="0.50"/><path d="M24,503.1600000000001 Q310.0383539116416,489.1600000000001 616,503.1600000000001" stroke="#D9AE3E" stroke-width="2" fill="none" opacity="0.55"/><path d="M24,470.2200000000001 Q313.68733362127676,456.2200000000001 616,470.2200000000001" stroke="#D9AE3E" stroke-width="2" fill="none" opacity="0.60"/><path d="M24,437.2800000000001 Q321.1654920485049,423.2800000000001 616,437.2800000000001" stroke="#D9AE3E" stroke-width="2" fill="none" opacity="0.65"/><polygon points="34,341.44 34,321 148,302 263,329 377,317 492,307 606,292 606,341.44" fill="#8A3A20" opacity="0.35"/>
+  <defs>
+    <linearGradient id="sky-p09" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#271A11"/>
+      <stop offset="100%" stop-color="#1B120C"/>
+    </linearGradient>
+    <radialGradient id="glow-p09" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#EFCE7B" stop-opacity="0.95"/>
+      <stop offset="60%" stop-color="#D9AE3E" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#D9AE3E" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="water-p09" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8A3A20" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#1B120C" stop-opacity="0.9"/>
+    </linearGradient>
+    <filter id="grain-p09">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0"/>
+    </filter>
+  </defs><rect x="34" y="720" width="572" height="46" fill="#1B120C" opacity="0.55"/>
+    <text x="320.0" y="749" text-anchor="middle" fill="#EFCE7B" font-family="Georgia, 'Times New Roman', serif" font-size="17" letter-spacing="2">ĐỒNG LÚA CHÍN</text>
+  <g transform="translate(34,34) rotate(0)">
+          <path d="M0,0 L26,0 M0,0 L0,26 M6,6 L18,6 M6,6 L6,18" stroke="#D9AE3E" stroke-width="2" fill="none" opacity="0.85"/>
+        </g><g transform="translate(606,34) rotate(90)">
+          <path d="M0,0 L26,0 M0,0 L0,26 M6,6 L18,6 M6,6 L6,18" stroke="#D9AE3E" stroke-width="2" fill="none" opacity="0.85"/>
+        </g><g transform="translate(606,766) rotate(180)">
+          <path d="M0,0 L26,0 M0,0 L0,26 M6,6 L18,6 M6,6 L6,18" stroke="#D9AE3E" stroke-width="2" fill="none" opacity="0.85"/>
+        </g><g transform="translate(34,766) rotate(270)">
+          <path d="M0,0 L26,0 M0,0 L0,26 M6,6 L18,6 M6,6 L6,18" stroke="#D9AE3E" stroke-width="2" fill="none" opacity="0.85"/>
+        </g>
+  <rect x="26" y="26" width="588" height="748" fill="none" stroke="#D9AE3E" stroke-width="2.5"/>
+  <rect width="640" height="800" fill="url(#grain-p09)" opacity="0.5"/>
+</svg>

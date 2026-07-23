@@ -3,110 +3,165 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tranh Việt - Giới thiệu</title>
+<title>Giới thiệu — Mộc & Chữ</title>
+<meta name="description" content="Câu chuyện của Mộc & Chữ — xưởng tranh và nhà sách gìn giữ nghệ thuật truyền thống Việt Nam.">
 <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 
-<header>
-  <div class="header-inner">
-    <a href="../index.html" class="logo">
-      <img src="../assets/logo.jpg" alt="Logo Tranh Việt" class="khung">
-      Tranh Việt
-    </a>
-    <nav>
-      <ul>
-        <li><a href="../index.html">Trang chủ</a></li>
-        <li><a href="gioi-thieu.html">Giới thiệu</a></li>
-        <li><a href="san-pham.html">Sản phẩm</a></li>
-        <li><a href="lien-he.html">Liên hệ</a></li>
-        <li><a href="#">Giỏ hàng (<span id="so-gio-hang">0</span>)</a></li>
-      </ul>
+<div class="strip">Miễn phí vận chuyển cho đơn hàng từ 1.000.000đ — Toàn quốc</div>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="../index.html" class="brand">Mộc <span class="mark">&</span> Chữ <small>Gallery · Nhà sách</small></a>
+    <nav class="nav-main">
+      <a href="../index.html">Trang chủ</a>
+      <a href="san-pham.html">Sản phẩm</a>
+      <a href="gioi-thieu.html" class="active">Giới thiệu</a>
+      <a href="lien-he.html">Liên hệ</a>
     </nav>
-    <button class="menu-toggle" aria-label="Mở menu">
-      <span></span><span></span><span></span>
-    </button>
+    <div class="header-actions">
+      <a class="icon-btn" href="san-pham.html" title="Tìm kiếm" aria-label="Tìm kiếm">⌕</a>
+      <a class="icon-btn" href="#" title="Giỏ hàng" aria-label="Giỏ hàng">
+        🛍
+        <span class="cart-count">0</span>
+      </a>
+      <button class="menu-toggle" aria-label="Mở menu">☰</button>
+    </div>
   </div>
 </header>
 
-<section class="hero">
-  <div class="container">
-    <h1>Về Tranh Việt</h1>
-    <p>Kết nối người yêu nghệ thuật với những họa sĩ trẻ tài năng trên khắp Việt Nam.</p>
+<section class="about-hero">
+  <div class="wrap" style="padding-top:30px;">
+    <span class="eyebrow">Về chúng tôi</span>
+    <h1 class="section-title" style="font-size:clamp(2rem,4vw,3rem); margin-top:14px;">Gìn giữ nét vẽ,<br>trân trọng trang sách</h1>
+    <p class="section-lede" style="max-width:60ch; margin-top:20px; font-size:1.05rem;">Mộc & Chữ ra đời từ tình yêu với hai chất liệu tưởng chừng khác biệt: mộc mạc của sơn mài truyền thống và con chữ trong những trang sách Việt. Chúng tôi kết nối nghệ nhân, họa sĩ và độc giả trong một không gian chung.</p>
   </div>
 </section>
 
-<section>
-  <div class="container gioi-thieu-luoi">
+<section class="section">
+  <div class="wrap about-grid">
+    <img src="../assets/tranh06.svg" alt="Cá chép hóa rồng — tranh sơn mài">
     <div>
-      <h2>Câu chuyện của chúng tôi</h2>
-      <p style="color:var(--chu-nhat); margin-top: 14px;">
-        Tranh Việt được thành lập bởi một nhóm sinh viên yêu hội họa, với mong muốn đưa những tác phẩm
-        của các họa sĩ trẻ đến gần hơn với công chúng. Từ một cửa hàng nhỏ, chúng tôi dần xây dựng được
-        cộng đồng khách hàng yêu thích tranh nghệ thuật trên khắp cả nước.
-      </p>
-      <p style="color:var(--chu-nhat); margin-top: 14px;">
-        Mỗi bức tranh tại cửa hàng đều được chọn lọc kỹ càng, đảm bảo chất lượng và mang một câu chuyện
-        riêng, để mỗi khách hàng đều tìm được tác phẩm phù hợp với không gian và cảm xúc của mình.
-      </p>
-    </div>
-    <div class="tranh-art" style="background-image: url('../assets/tranh-about.jpg');"></div>
-  </div>
-</section>
+      <span class="eyebrow">Khởi nguồn</span>
+      <h2 class="section-title">Từ một xưởng sơn mài nhỏ</h2>
+      <p class="section-lede">Năm 2017, Mộc & Chữ bắt đầu từ một xưởng tranh nhỏ tại làng nghề sơn mài ngoại thành Hà Nội. Ban đầu chỉ có ba nghệ nhân, chúng tôi dần mở rộng hợp tác với các họa sĩ trẻ theo đuổi chất liệu truyền thống theo cách hiện đại.</p>
+      <p class="section-lede" style="margin-top:14px;">Năm 2020, nhận thấy nhiều độc giả tìm kiếm những đầu sách văn học Việt Nam chất lượng, chúng tôi mở thêm mảng sách — chọn lọc từ các tác phẩm kinh điển đến những cây bút đương đại.</p>
 
-<section style="background: var(--nen-toi);">
-  <div class="container">
-    <div class="tieu-de-section">
-      <h2>Giá trị cốt lõi</h2>
-      <p>Những điều chúng tôi luôn theo đuổi</p>
-    </div>
-
-    <div class="gia-tri-luoi">
-      <div class="gia-tri">
-        <div class="bieu-tuong">🎨</div>
-        <h3>Chất lượng</h3>
-        <p style="color:var(--chu-nhat); margin-top:8px;">Tranh được lựa chọn và kiểm tra kỹ trước khi đến tay khách hàng.</p>
-      </div>
-      <div class="gia-tri">
-        <div class="bieu-tuong">🤝</div>
-        <h3>Uy tín</h3>
-        <p style="color:var(--chu-nhat); margin-top:8px;">Hợp tác minh bạch với họa sĩ và cam kết đúng như mô tả sản phẩm.</p>
-      </div>
-      <div class="gia-tri">
-        <div class="bieu-tuong">🚚</div>
-        <h3>Giao hàng tận nơi</h3>
-        <p style="color:var(--chu-nhat); margin-top:8px;">Đóng gói cẩn thận, giao hàng toàn quốc, hỗ trợ đổi trả.</p>
+      <div class="timeline">
+        <div class="tl-item">
+          <span class="tl-year">2017</span>
+          <div class="tl-body">
+            <h4>Thành lập xưởng tranh</h4>
+            <p>Ba nghệ nhân đầu tiên cùng theo đuổi kỹ thuật sơn mài truyền thống.</p>
+          </div>
+        </div>
+        <div class="tl-item">
+          <span class="tl-year">2020</span>
+          <div class="tl-body">
+            <h4>Mở rộng sang sách</h4>
+            <p>Ra mắt tủ sách văn học Việt Nam tuyển chọn, hợp tác cùng các nhà xuất bản uy tín.</p>
+          </div>
+        </div>
+        <div class="tl-item">
+          <span class="tl-year">2023</span>
+          <div class="tl-body">
+            <h4>Cửa hàng trực tuyến</h4>
+            <p>Đưa toàn bộ bộ sưu tập lên nền tảng trực tuyến, giao hàng toàn quốc.</p>
+          </div>
+        </div>
+        <div class="tl-item">
+          <span class="tl-year">2026</span>
+          <div class="tl-body">
+            <h4>12 họa sĩ đồng hành</h4>
+            <p>Mạng lưới nghệ sĩ và tác giả hợp tác cùng Mộc & Chữ tiếp tục mở rộng.</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<footer>
-  <div class="container footer-luoi">
-    <div>
-      <h3>Tranh Việt</h3>
-      <p>Cửa hàng tranh nghệ thuật, mang cái đẹp đến gần hơn với mọi ngôi nhà Việt.</p>
-    </div>
-    <div>
-      <h3>Liên kết</h3>
-      <ul>
-        <li><a href="san-pham.html">Sản phẩm</a></li>
-        <li><a href="gioi-thieu.html">Giới thiệu</a></li>
-        <li><a href="lien-he.html">Liên hệ</a></li>
-      </ul>
-    </div>
-    <div>
-      <h3>Liên hệ</h3>
-      <ul>
-        <li>0909 123 456</li>
-        <li>lienhe@tranhviet.vn</li>
-      </ul>
+<section class="section" style="padding-top:0;">
+  <div class="wrap">
+    <div class="gold-divider"></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <span class="eyebrow">Giá trị cốt lõi</span>
+    <h2 class="section-title">Điều chúng tôi theo đuổi</h2>
+    <div class="values-grid">
+      <div class="value-card">
+        <span class="glyph">壽</span>
+        <h4>Chất liệu thật</h4>
+        <p>Mỗi bức tranh dùng đúng chất liệu truyền thống: sơn mài, sơn dầu, lụa — không in ấn công nghiệp.</p>
+      </div>
+      <div class="value-card">
+        <span class="glyph">福</span>
+        <h4>Nguồn gốc rõ ràng</h4>
+        <p>Sản phẩm đi kèm thông tin đầy đủ về tác giả, năm sáng tác và câu chuyện đằng sau.</p>
+      </div>
+      <div class="value-card">
+        <span class="glyph">緣</span>
+        <h4>Kết nối cộng đồng</h4>
+        <p>Một phần doanh thu được trích lại hỗ trợ nghệ nhân trẻ và các dự án bảo tồn làng nghề.</p>
+      </div>
     </div>
   </div>
-  <div class="footer-duoi">© 2026 Tranh Việt. Đồ án cuối kỳ - Thiết kế web.</div>
+</section>
+
+<section class="cta-band">
+  <div class="wrap">
+    <h2>Ghé thăm bộ sưu tập của chúng tôi</h2>
+    <p>Hơn 20 tác phẩm tranh và sách đang chờ bạn khám phá.</p>
+    <a href="san-pham.html" class="btn btn-primary" style="margin-top:20px;">Xem sản phẩm</a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="../index.html" class="brand">Mộc <span class="mark">&</span> Chữ</a>
+        <p>Tranh nghệ thuật và sách Việt Nam tuyển chọn, giao hàng toàn quốc.</p>
+        <div class="social-row">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="Instagram">ig</a>
+          <a href="#" aria-label="Zalo">zl</a>
+        </div>
+      </div>
+      <div>
+        <h5>Mua sắm</h5>
+        <ul>
+          <li><a href="san-pham.html?type=tranh">Tranh nghệ thuật</a></li>
+          <li><a href="san-pham.html?type=sach">Sách</a></li>
+          <li><a href="san-pham.html">Tất cả sản phẩm</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Công ty</h5>
+        <ul>
+          <li><a href="gioi-thieu.html">Giới thiệu</a></li>
+          <li><a href="lien-he.html">Liên hệ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Liên hệ</h5>
+        <ul>
+          <li><a href="#">142 Hàng Bông, Hoàn Kiếm, Hà Nội</a></li>
+          <li><a href="tel:+84243888999">024 3888 999</a></li>
+          <li><a href="mailto:hello@mocvachu.vn">hello@mocvachu.vn</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Mộc & Chữ. Bản quyền thuộc về Mộc & Chữ.</span>
+      <span>Thiết kế thủ công tại Việt Nam</span>
+    </div>
+  </div>
 </footer>
-
-<button id="len-dau-trang">↑</button>
 
 <script src="../js/script.js"></script>
 </body>

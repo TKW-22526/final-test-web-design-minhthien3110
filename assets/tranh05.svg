@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 800">
+  <rect width="640" height="800" fill="#EDE3CC"/>
+  <rect x="26" y="26" width="588" height="748" fill="#0F1714"/>
+  <rect x="34" y="34" width="572" height="732" fill="url(#sky-p05)"/>
+  <polygon points="34,400.0 34,328 148,260 263,356 377,313 492,275 606,221 606,400.0" fill="#3E5D50" opacity="0.4"/><polygon points="34,400.0 34,291 148,340 263,421 377,309 492,280 606,304 606,400.0" fill="#28433A" opacity="0.65"/><path d="M52.6,737.4 Q320.00000000000006,723.4 587.4000000000001,737.4" stroke="#C9A227" stroke-width="2" fill="none" opacity="0.25"/><path d="M52.6,704.46 Q327.1735609089953,690.46 587.4000000000001,704.46" stroke="#C9A227" stroke-width="2" fill="none" opacity="0.30"/><path d="M52.6,671.52 Q329.9957360304151,657.52 587.4000000000001,671.52" stroke="#C9A227" stroke-width="2" fill="none" opacity="0.35"/><path d="M52.6,638.5799999999999 Q326.75463180551156,624.5799999999999 587.4000000000001,638.5799999999999" stroke="#C9A227" stroke-width="2" fill="none" opacity="0.40"/><path d="M52.6,605.64 Q319.41625856572426,591.64 587.4000000000001,605.64" stroke="#C9A227" stroke-width="2" fill="none" opacity="0.45"/><path d="M52.6,572.7 Q312.4319750469208,558.7 587.4000000000001,572.7" stroke="#C9A227" stroke-width="2" fill="none" opacity="0.50"/><path d="M52.6,539.76 Q310.03835391164165,525.76 587.4000000000001,539.76" stroke="#C9A227" stroke-width="2" fill="none" opacity="0.55"/><path d="M52.6,506.82 Q313.6873336212768,492.82 587.4000000000001,506.82" stroke="#C9A227" stroke-width="2" fill="none" opacity="0.60"/><path d="M52.6,473.88 Q321.165492048505,459.88 587.4000000000001,473.88" stroke="#C9A227" stroke-width="2" fill="none" opacity="0.65"/>
+    <rect x="474.16" y="448.84" width="12" height="39.0" fill="#3E5D50"/>
+    <path d="M456.76000000000005,451.44 L480.16,433.23999999999995 L503.56,451.44 Q480.16,447.53999999999996 456.76000000000005,451.44 Z" fill="#3E5D50"/>
+    <path d="M456.76000000000005,451.44 Q480.16,457.94 503.56,451.44" stroke="#C9A227" stroke-width="2" fill="none"/>
+    <rect x="465.86" y="450.91999999999996" width="28.6" height="14.3" fill="#182420" stroke="#C9A227" stroke-width="1.5"/>
+    <path d="M441.16,487.84 Q480.16,474.84 519.1600000000001,487.84" stroke="#C9A227" stroke-width="2" fill="none" opacity="0.7"/>
+    
+  <defs>
+    <linearGradient id="sky-p05" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#182420"/>
+      <stop offset="100%" stop-color="#0F1714"/>
+    </linearGradient>
+    <radialGradient id="glow-p05" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E6C766" stop-opacity="0.95"/>
+      <stop offset="60%" stop-color="#C9A227" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#C9A227" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="water-p05" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#28433A" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#0F1714" stop-opacity="0.9"/>
+    </linearGradient>
+    <filter id="grain-p05">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0"/>
+    </filter>
+  </defs><rect x="34" y="720" width="572" height="46" fill="#0F1714" opacity="0.55"/>
+    <text x="320.0" y="749" text-anchor="middle" fill="#E6C766" font-family="Georgia, 'Times New Roman', serif" font-size="17" letter-spacing="2">NÚI RỪNG TÂY BẮC</text>
+  <g transform="translate(34,34) rotate(0)">
+          <path d="M0,0 L26,0 M0,0 L0,26 M6,6 L18,6 M6,6 L6,18" stroke="#C9A227" stroke-width="2" fill="none" opacity="0.85"/>
+        </g><g transform="translate(606,34) rotate(90)">
+          <path d="M0,0 L26,0 M0,0 L0,26 M6,6 L18,6 M6,6 L6,18" stroke="#C9A227" stroke-width="2" fill="none" opacity="0.85"/>
+        </g><g transform="translate(606,766) rotate(180)">
+          <path d="M0,0 L26,0 M0,0 L0,26 M6,6 L18,6 M6,6 L6,18" stroke="#C9A227" stroke-width="2" fill="none" opacity="0.85"/>
+        </g><g transform="translate(34,766) rotate(270)">
+          <path d="M0,0 L26,0 M0,0 L0,26 M6,6 L18,6 M6,6 L6,18" stroke="#C9A227" stroke-width="2" fill="none" opacity="0.85"/>
+        </g>
+  <rect x="26" y="26" width="588" height="748" fill="none" stroke="#C9A227" stroke-width="2.5"/>
+  <rect width="640" height="800" fill="url(#grain-p05)" opacity="0.5"/>
+</svg>

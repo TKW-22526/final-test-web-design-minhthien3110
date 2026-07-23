@@ -3,101 +3,138 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tranh Việt - Liên hệ</title>
+<title>Liên hệ — Mộc & Chữ</title>
+<meta name="description" content="Liên hệ với Mộc & Chữ để được tư vấn về tranh nghệ thuật và sách Việt Nam.">
 <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 
-<header>
-  <div class="header-inner">
-    <a href="../index.html" class="logo">
-      <img src="../assets/logo.jpg" alt="Logo Tranh Việt" class="khung">
-      Tranh Việt
-    </a>
-    <nav>
-      <ul>
-        <li><a href="../index.html">Trang chủ</a></li>
-        <li><a href="gioi-thieu.html">Giới thiệu</a></li>
-        <li><a href="san-pham.html">Sản phẩm</a></li>
-        <li><a href="lien-he.html">Liên hệ</a></li>
-        <li><a href="#">Giỏ hàng (<span id="so-gio-hang">0</span>)</a></li>
-      </ul>
+<div class="strip">Miễn phí vận chuyển cho đơn hàng từ 1.000.000đ — Toàn quốc</div>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="../index.html" class="brand">Mộc <span class="mark">&</span> Chữ <small>Gallery · Nhà sách</small></a>
+    <nav class="nav-main">
+      <a href="../index.html">Trang chủ</a>
+      <a href="san-pham.html">Sản phẩm</a>
+      <a href="gioi-thieu.html">Giới thiệu</a>
+      <a href="lien-he.html" class="active">Liên hệ</a>
     </nav>
-    <button class="menu-toggle" aria-label="Mở menu">
-      <span></span><span></span><span></span>
-    </button>
+    <div class="header-actions">
+      <a class="icon-btn" href="san-pham.html" title="Tìm kiếm" aria-label="Tìm kiếm">⌕</a>
+      <a class="icon-btn" href="#" title="Giỏ hàng" aria-label="Giỏ hàng">
+        🛍
+        <span class="cart-count">0</span>
+      </a>
+      <button class="menu-toggle" aria-label="Mở menu">☰</button>
+    </div>
   </div>
 </header>
 
-<section class="hero">
-  <div class="container">
-    <h1>Liên hệ với chúng tôi</h1>
-    <p>Có thắc mắc về sản phẩm hoặc đơn hàng? Gửi tin nhắn cho chúng tôi ngay.</p>
-  </div>
-</section>
+<div class="breadcrumb">
+  <div class="wrap"><a href="../index.html">Trang chủ</a> / <span>Liên hệ</span></div>
+</div>
 
-<section>
-  <div class="container lien-he-luoi">
+<section class="section" style="padding-top:10px;">
+  <div class="wrap">
+    <span class="eyebrow">Liên hệ</span>
+    <h1 class="section-title">Chúng tôi luôn sẵn sàng lắng nghe</h1>
+    <p class="section-lede">Có câu hỏi về một bức tranh, một đầu sách, hay muốn đặt riêng theo yêu cầu? Gửi tin nhắn cho chúng tôi.</p>
 
-    <div>
-      <h2>Thông tin liên hệ</h2>
-      <ul class="thong-tin-lh" style="margin-top: 20px;">
-        <li><span class="bieu-tuong">📍</span><span>123 Đường Nguyễn Trãi, Quận 1, TP. Hồ Chí Minh</span></li>
-        <li><span class="bieu-tuong">📞</span><span>0909 123 456</span></li>
-        <li><span class="bieu-tuong">✉️</span><span>lienhe@tranhviet.vn</span></li>
-        <li><span class="bieu-tuong">🕒</span><span>8:00 - 21:00, Thứ 2 - Chủ nhật</span></li>
-      </ul>
-    </div>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h2 class="section-title" style="font-size:1.4rem;">Thông tin liên hệ</h2>
+        <ul class="info-list">
+          <li>
+            <span class="ico">⌂</span>
+            <div><strong>Địa chỉ cửa hàng</strong><span>142 Hàng Bông, Hoàn Kiếm, Hà Nội</span></div>
+          </li>
+          <li>
+            <span class="ico">☎</span>
+            <div><strong>Điện thoại</strong><span>024 3888 999 (8:00 – 18:00, Thứ 2 – Thứ 7)</span></div>
+          </li>
+          <li>
+            <span class="ico">✉</span>
+            <div><strong>Email</strong><span>hello@mocvachu.vn</span></div>
+          </li>
+          <li>
+            <span class="ico">◷</span>
+            <div><strong>Giờ mở cửa</strong><span>8:00 – 18:00 tất cả các ngày trong tuần</span></div>
+          </li>
+        </ul>
+        <div class="map-box">
+          Bản đồ cửa hàng — 142 Hàng Bông, Hoàn Kiếm, Hà Nội
+        </div>
+      </div>
 
-    <div>
-      <h2>Gửi tin nhắn</h2>
-      <form id="form-lien-he" style="margin-top: 20px;">
-        <div class="truong">
-          <label for="ho-ten">Họ tên</label>
-          <input type="text" id="ho-ten" placeholder="Nhập họ tên của bạn">
+      <form class="contact-form" id="contact-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="cf-name">Họ và tên</label>
+            <input type="text" id="cf-name" name="name" placeholder="Nguyễn Văn A" required>
+          </div>
+          <div class="form-group">
+            <label for="cf-email">Email</label>
+            <input type="email" id="cf-email" name="email" placeholder="ban@email.com" required>
+          </div>
         </div>
-        <div class="truong">
-          <label for="email">Email</label>
-          <input type="email" id="email" placeholder="[email protected]">
+        <div class="form-group">
+          <label for="cf-phone">Số điện thoại (không bắt buộc)</label>
+          <input type="tel" id="cf-phone" name="phone" placeholder="09xx xxx xxx">
         </div>
-        <div class="truong">
-          <label for="noi-dung">Nội dung</label>
-          <textarea id="noi-dung" placeholder="Bạn muốn hỏi điều gì?"></textarea>
+        <div class="form-group">
+          <label for="cf-message">Nội dung</label>
+          <textarea id="cf-message" name="message" rows="6" placeholder="Tôi muốn hỏi về..." required></textarea>
         </div>
-        <button type="submit" class="btn">Gửi tin nhắn</button>
-        <div id="thong-bao-form" class="thong-bao"></div>
+        <button type="submit" class="btn btn-primary btn-block">Gửi tin nhắn</button>
+        <p class="form-note" id="form-note"></p>
       </form>
     </div>
-
   </div>
 </section>
 
-<footer>
-  <div class="container footer-luoi">
-    <div>
-      <h3>Tranh Việt</h3>
-      <p>Cửa hàng tranh nghệ thuật, mang cái đẹp đến gần hơn với mọi ngôi nhà Việt.</p>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="../index.html" class="brand">Mộc <span class="mark">&</span> Chữ</a>
+        <p>Tranh nghệ thuật và sách Việt Nam tuyển chọn, giao hàng toàn quốc.</p>
+        <div class="social-row">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="Instagram">ig</a>
+          <a href="#" aria-label="Zalo">zl</a>
+        </div>
+      </div>
+      <div>
+        <h5>Mua sắm</h5>
+        <ul>
+          <li><a href="san-pham.html?type=tranh">Tranh nghệ thuật</a></li>
+          <li><a href="san-pham.html?type=sach">Sách</a></li>
+          <li><a href="san-pham.html">Tất cả sản phẩm</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Công ty</h5>
+        <ul>
+          <li><a href="gioi-thieu.html">Giới thiệu</a></li>
+          <li><a href="lien-he.html">Liên hệ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Liên hệ</h5>
+        <ul>
+          <li><a href="#">142 Hàng Bông, Hoàn Kiếm, Hà Nội</a></li>
+          <li><a href="tel:+84243888999">024 3888 999</a></li>
+          <li><a href="mailto:hello@mocvachu.vn">hello@mocvachu.vn</a></li>
+        </ul>
+      </div>
     </div>
-    <div>
-      <h3>Liên kết</h3>
-      <ul>
-        <li><a href="san-pham.html">Sản phẩm</a></li>
-        <li><a href="gioi-thieu.html">Giới thiệu</a></li>
-        <li><a href="lien-he.html">Liên hệ</a></li>
-      </ul>
-    </div>
-    <div>
-      <h3>Liên hệ</h3>
-      <ul>
-        <li>0909 123 456</li>
-        <li>lienhe@tranhviet.vn</li>
-      </ul>
+    <div class="footer-bottom">
+      <span>© 2026 Mộc & Chữ. Bản quyền thuộc về Mộc & Chữ.</span>
+      <span>Thiết kế thủ công tại Việt Nam</span>
     </div>
   </div>
-  <div class="footer-duoi">© 2026 Tranh Việt. Đồ án cuối kỳ - Thiết kế web.</div>
 </footer>
-
-<button id="len-dau-trang">↑</button>
 
 <script src="../js/script.js"></script>
 </body>

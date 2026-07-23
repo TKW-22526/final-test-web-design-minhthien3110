@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 800">
+  <rect width="640" height="800" fill="#EDE3CC"/>
+  <rect x="26" y="26" width="588" height="748" fill="#15120F"/>
+  <rect x="34" y="34" width="572" height="732" fill="url(#sky-p08)"/>
+  <circle cx="320.0" cy="268.24" r="118.80000000000001" fill="url(#glow-p08)"/><circle cx="320.0" cy="268.24" r="54" fill="#E6C766"/><rect x="34" y="473.2" width="572" height="292.8" fill="url(#water-p08)"/><path d="M34,487.2 Q-14,487 34,491 Q101,487 148,483 Q215,487 263,491 Q330,487 377,483 Q444,487 492,491 Q558,487 606,483 " stroke="#C9A227" stroke-width="1" fill="none" opacity="0.18"/><path d="M34,526.1714285714286 Q-14,526 34,531 Q101,526 148,522 Q215,526 263,531 Q330,526 377,522 Q444,526 492,531 Q558,526 606,522 " stroke="#C9A227" stroke-width="1" fill="none" opacity="0.19999999999999998"/><path d="M34,565.1428571428571 Q-14,565 34,570 Q101,565 148,560 Q215,565 263,570 Q330,565 377,560 Q444,565 492,570 Q558,565 606,560 " stroke="#C9A227" stroke-width="1" fill="none" opacity="0.22"/><path d="M34,604.1142857142858 Q-14,604 34,610 Q101,604 148,598 Q215,604 263,610 Q330,604 377,598 Q444,604 492,610 Q558,604 606,598 " stroke="#C9A227" stroke-width="1" fill="none" opacity="0.24"/><path d="M34,643.0857142857143 Q-14,643 34,649 Q101,643 148,637 Q215,643 263,649 Q330,643 377,637 Q444,643 492,649 Q558,643 606,637 " stroke="#C9A227" stroke-width="1" fill="none" opacity="0.26"/><path d="M34,682.0571428571429 Q-14,682 34,689 Q101,682 148,675 Q215,682 263,689 Q330,682 377,675 Q444,682 492,689 Q558,682 606,675 " stroke="#C9A227" stroke-width="1" fill="none" opacity="0.28"/><path d="M34,721.0285714285715 Q-14,721 34,729 Q101,721 148,713 Q215,721 263,729 Q330,721 377,713 Q444,721 492,729 Q558,721 606,713 " stroke="#C9A227" stroke-width="1" fill="none" opacity="0.3"/><g>
+      <line x1="119.8" y1="582.5600000000001" x2="119.8" y2="590.96" stroke="#C9A227" stroke-width="1.4"/>
+      <ellipse cx="119.8" cy="604.96" rx="8.68" ry="14" fill="#A8332A" opacity="0.92"/>
+      <line x1="111.12" y1="599.36" x2="128.48" y2="599.36" stroke="#C9A227" stroke-width="1"/>
+      <line x1="111.12" y1="610.5600000000001" x2="128.48" y2="610.5600000000001" stroke="#C9A227" stroke-width="1"/>
+      <line x1="119.8" y1="618.96" x2="119.8" y2="632.96" stroke="#C9A227" stroke-width="1.4"/>
+    </g><g>
+      <line x1="217.04000000000002" y1="592.5600000000001" x2="217.04000000000002" y2="600.96" stroke="#C9A227" stroke-width="1.4"/>
+      <ellipse cx="217.04000000000002" cy="614.96" rx="8.68" ry="14" fill="#C9A227" opacity="0.92"/>
+      <line x1="208.36" y1="609.36" x2="225.72000000000003" y2="609.36" stroke="#C9A227" stroke-width="1"/>
+      <line x1="208.36" y1="620.5600000000001" x2="225.72000000000003" y2="620.5600000000001" stroke="#C9A227" stroke-width="1"/>
+      <line x1="217.04000000000002" y1="628.96" x2="217.04000000000002" y2="642.96" stroke="#C9A227" stroke-width="1.4"/>
+    </g><g>
+      <line x1="314.28000000000003" y1="582.5600000000001" x2="314.28000000000003" y2="590.96" stroke="#C9A227" stroke-width="1.4"/>
+      <ellipse cx="314.28000000000003" cy="604.96" rx="8.68" ry="14" fill="#A8332A" opacity="0.92"/>
+      <line x1="305.6" y1="599.36" x2="322.96000000000004" y2="599.36" stroke="#C9A227" stroke-width="1"/>
+      <line x1="305.6" y1="610.5600000000001" x2="322.96000000000004" y2="610.5600000000001" stroke="#C9A227" stroke-width="1"/>
+      <line x1="314.28000000000003" y1="618.96" x2="314.28000000000003" y2="632.96" stroke="#C9A227" stroke-width="1.4"/>
+    </g><g>
+      <line x1="411.52000000000004" y1="592.5600000000001" x2="411.52000000000004" y2="600.96" stroke="#C9A227" stroke-width="1.4"/>
+      <ellipse cx="411.52000000000004" cy="614.96" rx="8.68" ry="14" fill="#C9A227" opacity="0.92"/>
+      <line x1="402.84000000000003" y1="609.36" x2="420.20000000000005" y2="609.36" stroke="#C9A227" stroke-width="1"/>
+      <line x1="402.84000000000003" y1="620.5600000000001" x2="420.20000000000005" y2="620.5600000000001" stroke="#C9A227" stroke-width="1"/>
+      <line x1="411.52000000000004" y1="628.96" x2="411.52000000000004" y2="642.96" stroke="#C9A227" stroke-width="1.4"/>
+    </g><g>
+      <line x1="508.76000000000005" y1="582.5600000000001" x2="508.76000000000005" y2="590.96" stroke="#C9A227" stroke-width="1.4"/>
+      <ellipse cx="508.76000000000005" cy="604.96" rx="8.68" ry="14" fill="#A8332A" opacity="0.92"/>
+      <line x1="500.08000000000004" y1="599.36" x2="517.44" y2="599.36" stroke="#C9A227" stroke-width="1"/>
+      <line x1="500.08000000000004" y1="610.5600000000001" x2="517.44" y2="610.5600000000001" stroke="#C9A227" stroke-width="1"/>
+      <line x1="508.76000000000005" y1="618.96" x2="508.76000000000005" y2="632.96" stroke="#C9A227" stroke-width="1.4"/>
+    </g>
+  <defs>
+    <linearGradient id="sky-p08" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1F1B16"/>
+      <stop offset="100%" stop-color="#15120F"/>
+    </linearGradient>
+    <radialGradient id="glow-p08" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E6C766" stop-opacity="0.95"/>
+      <stop offset="60%" stop-color="#C9A227" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#C9A227" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="water-p08" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7C231C" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#15120F" stop-opacity="0.9"/>
+    </linearGradient>
+    <filter id="grain-p08">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0"/>
+    </filter>
+  </defs><rect x="34" y="720" width="572" height="46" fill="#15120F" opacity="0.55"/>
+    <text x="320.0" y="749" text-anchor="middle" fill="#E6C766" font-family="Georgia, 'Times New Roman', serif" font-size="17" letter-spacing="2">TRĂNG RẰM THÁNG TÁM</text>
+  <g transform="translate(34,34) rotate(0)">
+          <path d="M0,0 L26,0 M0,0 L0,26 M6,6 L18,6 M6,6 L6,18" stroke="#C9A227" stroke-width="2" fill="none" opacity="0.85"/>
+        </g><g transform="translate(606,34) rotate(90)">
+          <path d="M0,0 L26,0 M0,0 L0,26 M6,6 L18,6 M6,6 L6,18" stroke="#C9A227" stroke-width="2" fill="none" opacity="0.85"/>
+        </g><g transform="translate(606,766) rotate(180)">
+          <path d="M0,0 L26,0 M0,0 L0,26 M6,6 L18,6 M6,6 L6,18" stroke="#C9A227" stroke-width="2" fill="none" opacity="0.85"/>
+        </g><g transform="translate(34,766) rotate(270)">
+          <path d="M0,0 L26,0 M0,0 L0,26 M6,6 L18,6 M6,6 L6,18" stroke="#C9A227" stroke-width="2" fill="none" opacity="0.85"/>
+        </g>
+  <rect x="26" y="26" width="588" height="748" fill="none" stroke="#C9A227" stroke-width="2.5"/>
+  <rect width="640" height="800" fill="url(#grain-p08)" opacity="0.5"/>
+</svg>
